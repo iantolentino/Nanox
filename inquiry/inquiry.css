@@ -75,6 +75,10 @@
             line-height: 1;
             text-align: center;
             overflow: hidden;
+            pointer-events: none;
+        }
+        .chat-logo {
+            pointer-events: auto;
         }
 
         /* Header always visible */
